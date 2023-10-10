@@ -1,0 +1,74 @@
+* {
+    background-color: black;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.conteiner {
+    width: 500px;
+    height: 500px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+h1{
+    margin: 0;
+    padding: 10px;
+    background-color: orange;
+}
+
+#visor {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+    font-size: 25px;
+}
+
+#row {
+    margin: 5px;
+    display:  flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#numbers{
+    width: 60%;
+    display:  flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.btn-numbers {
+    width: 80px;
+    height: 80px;
+    color: white;
+    padding: 10px;
+    font-family: 8px;
+    border: none;
+}
+
+.btn-numbers:hover {
+    cursor: pointer;
+}
+
+.btn-math {
+    width: 70px;
+    height: 70px;
+    color: orange;
+    padding: 10px;
+    font-family: 8px;
+    border: none;
+}
+
+.btn-math:hover {
+    cursor: pointer;
+}
