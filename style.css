@@ -13,23 +13,24 @@ body {
 
 .conteiner {
     width: 500px;
-    height: 500px;
+    height: fit-content;
     color: white;
     text-align: center;
-    background-color: black;
+    background-color: rgb(41, 39, 39);
 }
 
 h1{
     margin: 0;
     padding: 10px;
-    background-color: orange;
+    background-color: rgb(41, 39, 39);
 }
 
-#visor {
+#display {
     display: flex;
     flex-direction: row-reverse;
-    margin: 10px;
+    padding: 10px;
     font-size: 25px;
+    background-color: rgb(41, 39, 39);
 }
 
 #row {
@@ -37,7 +38,8 @@ h1{
     display:  flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(41, 39, 39);
 }
 
 #numbers{
@@ -45,6 +47,13 @@ h1{
     display:  flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(41, 39, 39);
+}
+
+
+.col {
+    background-color: rgb(41, 39, 39);
 }
 
 .btn-numbers {
@@ -53,7 +62,8 @@ h1{
     color: white;
     padding: 10px;
     font-family: 8px;
-    border: none;
+    background-color: gray;
+    border-radius: 5%;
 }
 
 .btn-numbers:hover {
@@ -61,12 +71,14 @@ h1{
 }
 
 .btn-math {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     color: orange;
     padding: 10px;
     font-family: 8px;
-    border: none;
+    background-color: gray;
+    border-radius: 1px;
+    margin-bottom: 4%;
 }
 
 .btn-math:hover {
